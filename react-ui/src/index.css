@@ -3,3 +3,84 @@ body {
   padding: 0;
   font-family: sans-serif;
 }
+
+
+.marginBottom {
+  margin-bottom: 20px; }
+.marginTop {
+  margin-top: 20px; }
+.smallMarginTop {
+  margin-top: 10px; }
+.marginLeft {
+  margin-left: 20px; }
+.rot90 {
+  transform: rotate(180deg); }
+.boldText {
+  font-weight: bold; }
+.paddingBottom {
+  padding-bottom: 20px; }
+
+
+
+/**/
+.slider {
+  -webkit-appearance: none;
+  width: 100%;
+  height: 4px;
+  border-radius: 5px;
+  background: #d3d3d3;
+  outline: none;
+  opacity: 0.7;
+  -webkit-transition: .2s;
+  transition: opacity .2s; }
+.slider-arrow::-webkit-slider-thumb {
+  -webkit-appearance: none;
+  appearance: none;
+  width: 15px;
+  height: 15px;
+  border-radius: 50%;
+  background: #272727;
+  cursor: pointer; }
+.slider-arrow::-moz-range-thumb {
+  width: 15px;
+  height: 15px;
+  border-radius: 50%;
+  background: #272727;
+  cursor: pointer; }
+.slider-cube::-webkit-slider-thumb {
+  -webkit-appearance: none;
+  /* Override default look */
+  appearance: none;
+  width: 10px;
+  /* Set a specific slider handle width */
+  height: 18px;
+  /* Slider handle height */
+  background: #D8D8D8;
+  cursor: pointer;
+  /* Cursor on hover */ }
+.slider-cube::-moz-range-thumb {
+  width: 10px;
+  /* Set a specific slider handle width */
+  height: 18px;
+  /* Slider handle height */
+  background: #D8D8D8;
+  cursor: pointer;
+  /* Cursor on hover */ }
+
+/**/
+
+
+.closeIcon {
+  position: absolute;
+  top: 20px;
+  right: 20px;
+  display: none; }
+.closeIcon:hover {
+  cursor: pointer; }
+.selectIcon {
+  position: absolute;
+  right: 20px;
+  bottom: 20px;
+  display: none; }
+.selectIcon:hover {
+  cursor: pointer; }

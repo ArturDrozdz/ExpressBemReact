@@ -14,12 +14,12 @@
   color: white;
 }
 
-.App-intro {
-  font-size: large;
+.App-title {
+  font-size: 1.5em;
 }
 
-.App a {
-  color: #f60;
+.App-intro {
+  font-size: large;
 }
 
 @keyframes App-logo-spin {

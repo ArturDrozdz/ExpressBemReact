@@ -6,7 +6,9 @@
     "node": "8.9.x"
   },
   "scripts": {
-    "start": "node server",
+    "start": "ts-node server",
+    "build":"cd react-ui && npm run build",
+    "postinstall": "cd react-ui && npm install",
     "heroku-postbuild": "cd react-ui/ && npm install && npm install --only=dev --no-shrinkwrap && npm run build"
   },
   "cacheDirectories": [
@@ -14,7 +16,8 @@
     "react-ui/node_modules"
   ],
   "dependencies": {
-    "express": "^4.16.3"
+    "express": "^4.16.3",
+    "ts-node": "^7.0.1"
   },
   "repository": {
     "type": "git",
@@ -27,5 +30,8 @@
     "react"
   ],
   "license": "MIT",
-  "devDependencies": {}
+  "devDependencies": {
+    "@types/node": "^10.12.9",
+    "typescript": "^3.1.6"
+  }
 }

@@ -1,7 +1,71 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="450f9921-562d-4322-936f-2e8065c51a37" name="Default" comment="" />
+    <list default="true" id="450f9921-562d-4322-936f-2e8065c51a37" name="Default" comment="">
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/react-ui/src/pages/events/item/images/album-cover.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/react-ui/src/pages/events/item/images/vacuum_cleaner.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/react-ui/src/particles/navbar/mobile_toggle.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/react-ui/images.d.ts" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/react-ui/public/manifest.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/react-ui/src/index.tsx" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/react-ui/src/pages/events/events.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/react-ui/src/pages/events/events.tsx" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/react-ui/src/pages/events/item/critical.tsx" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/react-ui/src/pages/events/item/images/Next.svg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/react-ui/src/pages/events/item/images/Prev.svg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/react-ui/src/pages/events/item/images/ac-white.svg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/react-ui/src/pages/events/item/images/air-conditioner.svg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/react-ui/src/pages/events/item/images/battery.svg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/react-ui/src/pages/events/item/images/cam-white.svg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/react-ui/src/pages/events/item/images/cross-white.svg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/react-ui/src/pages/events/item/images/cross.svg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/react-ui/src/pages/events/item/images/fridge.svg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/react-ui/src/pages/events/item/images/icon_list_m@1x.svg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/react-ui/src/pages/events/item/images/kettle.svg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/react-ui/src/pages/events/item/images/key.svg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/react-ui/src/pages/events/item/images/music.svg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/react-ui/src/pages/events/item/images/next-white.svg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/react-ui/src/pages/events/item/images/robot-cleaner.svg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/react-ui/src/pages/events/item/images/router.svg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/react-ui/src/pages/events/item/images/stats.svg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/react-ui/src/pages/events/item/images/thermal.svg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/react-ui/src/pages/events/item/info.tsx" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/react-ui/src/pages/events/item/item.tsx" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/react-ui/src/pages/main/App.tsx" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/react-ui/src/pages/notFound/notFound.tsx" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/react-ui/src/particles/ButtonsBlock/ButtonsBlock.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/react-ui/src/particles/ButtonsBlock/ButtonsBlock.tsx" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/react-ui/src/particles/Text/Text.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/react-ui/src/particles/Text/Text.tsx" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/react-ui/src/particles/Text/TextTypes.tsx" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/react-ui/src/particles/footer/footer.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/react-ui/src/particles/footer/footer.tsx" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/react-ui/src/particles/musicPlayer/musicPlayer.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/react-ui/src/particles/musicPlayer/musicPlayer.tsx" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/react-ui/src/particles/navbar/logo.svg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/react-ui/src/particles/navbar/navbar.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/react-ui/src/particles/navbar/navbar.tsx" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/react-ui/src/registerServiceWorker.ts" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/react-ui/tsconfig.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/react-ui/tsconfig.prod.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/react-ui/tsconfig.test.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/react-ui/tslint.json" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/react-ui/src/App.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/react-ui/src/index.js" afterPath="" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/react-ui/public/favicon.ico" afterPath="$PROJECT_DIR$/react-ui/public/favicon.ico" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/package-lock.json" afterPath="$PROJECT_DIR$/package-lock.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/package.json" afterPath="$PROJECT_DIR$/package.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/react-ui/.gitignore" afterPath="$PROJECT_DIR$/react-ui/.gitignore" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/react-ui/README.md" afterPath="$PROJECT_DIR$/react-ui/README.md" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/react-ui/package-lock.json" afterPath="$PROJECT_DIR$/react-ui/package-lock.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/react-ui/package.json" afterPath="$PROJECT_DIR$/react-ui/package.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/react-ui/public/index.html" afterPath="$PROJECT_DIR$/react-ui/public/index.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/react-ui/src/index.css" afterPath="$PROJECT_DIR$/react-ui/src/index.css" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/react-ui/src/App.css" afterPath="$PROJECT_DIR$/react-ui/src/pages/main/App.css" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/react-ui/src/App.test.js" afterPath="$PROJECT_DIR$/react-ui/src/pages/main/App.test.tsx" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/server/index.js" afterPath="$PROJECT_DIR$/server/index.ts" />
+    </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -9,8 +73,64 @@
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
+  <component name="FileEditorManager">
+    <leaf>
+      <file leaf-file-name="package.json" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/package.json">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="153">
+              <caret line="9" column="43" lean-forward="false" selection-start-line="9" selection-start-column="43" selection-end-line="9" selection-end-column="43" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="README.md" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/README.md">
+          <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+            <state split_layout="SPLIT">
+              <first_editor relative-caret-position="0">
+                <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+                <folding />
+              </first_editor>
+              <second_editor />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="package.json" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/react-ui/package.json">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="493">
+              <caret line="29" column="34" lean-forward="false" selection-start-line="29" selection-start-column="34" selection-end-line="29" selection-end-column="34" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="index.ts" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/server/index.ts">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-102">
+              <caret line="6" column="0" lean-forward="false" selection-start-line="6" selection-start-column="0" selection-end-line="6" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
+  </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/react-ui/README.md" />
+        <option value="$PROJECT_DIR$/package.json" />
+        <option value="$PROJECT_DIR$/react-ui/package.json" />
+      </list>
+    </option>
   </component>
   <component name="JsBuildToolGruntFileManager" detection-done="true" sorting="DEFINITION_ORDER" />
   <component name="JsBuildToolPackageJson" detection-done="true" sorting="DEFINITION_ORDER">
@@ -19,6 +139,10 @@
   <component name="JsGulpfileManager">
     <detection-done>true</detection-done>
     <sorting>DEFINITION_ORDER</sorting>
+  </component>
+  <component name="NodeModulesDirectoryManager">
+    <handled-path value="$PROJECT_DIR$/node_modules" />
+    <handled-path value="$PROJECT_DIR$/react-ui/node_modules" />
   </component>
   <component name="PhpWorkspaceProjectConfiguration" backward_compatibility_performed="true" />
   <component name="ProjectFrameBounds" extendedState="6">
@@ -51,6 +175,11 @@
               <item name="react" type="b2602c69:ProjectViewProjectNode" />
               <item name="react" type="2a2b976b:PhpTreeStructureProvider$1" />
             </path>
+            <path>
+              <item name="react" type="b2602c69:ProjectViewProjectNode" />
+              <item name="react" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="server" type="2a2b976b:PhpTreeStructureProvider$1" />
+            </path>
           </expand>
           <select />
         </subPane>
@@ -60,9 +189,14 @@
   <component name="PropertiesComponent">
     <property name="settings.editor.selected.configurable" value="configurable.group.appearance" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../ExpessBemReact" />
     <property name="nodejs_interpreter_path" value="C:/Program Files/nodejs/node" />
     <property name="HbShouldOpenHtmlAsHb" value="" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\Projects\Project\react\react-ui" />
+    </key>
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -86,16 +220,17 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1542376864507</updated>
-      <workItem from="1542376865560" duration="81000" />
+      <workItem from="1542376865560" duration="927000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="81000" />
+    <option name="totallyTimeSpent" value="927000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1696" height="1026" extended-state="6" />
     <layout>
+      <window_info id="TypeScript" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="true" content_ui="tabs" />
@@ -125,5 +260,69 @@
   <component name="XDebuggerManager">
     <breakpoint-manager />
     <watches-manager />
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/react-ui/package-lock.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/react-ui/README.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="0">
+            <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+            <folding />
+          </first_editor>
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/react-ui/public/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/package.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="153">
+          <caret line="9" column="43" lean-forward="false" selection-start-line="9" selection-start-column="43" selection-end-line="9" selection-end-column="43" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/README.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="0">
+            <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+            <folding />
+          </first_editor>
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/react-ui/package.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="493">
+          <caret line="29" column="34" lean-forward="false" selection-start-line="29" selection-start-column="34" selection-end-line="29" selection-end-column="34" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/server/index.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-102">
+          <caret line="6" column="0" lean-forward="false" selection-start-line="6" selection-start-column="0" selection-end-line="6" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
   </component>
 </project>

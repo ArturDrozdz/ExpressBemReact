@@ -1,0 +1,121 @@
+@media only screen and (min-device-width: 1050px) {
+    .ContainerEvents {
+        grid-template-columns: repeat(6, 1fr);
+        grid-template-rows: repeat(2, 1fr);
+        margin-left: 12%;
+        margin-right: 12%;
+        grid-gap: 20px;
+        align-items: flex-start;
+        justify-items: flex-start; }
+
+    .Event_size_s {
+        grid-column: span 2;
+    }
+    .Event_size_s .Event-status{
+        margin-bottom: 15px;
+    }
+    .Event_size_s .Event-time{
+        margin-bottom: 15px;
+    }
+    .Event_size_m {
+        grid-column: span 3; }
+    .Event_size_l {
+        grid-column: span 4;
+        grid-row: span 3;
+    }
+
+    .Event_critical {
+            display: flex;
+            flex-direction: column; }
+    .Event-critical {
+        font-size: 1.7vw;
+        margin-top: auto;
+    }
+
+    .Event-statusLine > p:first-child{
+        float: left;
+    }
+    .Event-statusLine > p:last-child{
+        float: right;
+    }
+
+    .Event-info {
+            padding-top: 4%;
+            padding-left: 4%;
+            padding-right: 4%; }
+    .Event-time {
+        font-size: 1.6vw;
+        margin-bottom: 0px;
+    }
+    .Event-status{
+        font-size: 1.6vw;
+        margin-bottom: 0px;
+    }
+    .Event-title {
+            font-size: 1.8vw; }
+}
+
+.headText {
+    height: 50px;
+    margin-top: 34px;
+    margin-bottom: 32px;
+    margin-left: 171px;
+    font-size: 36px;
+}
+
+.ContainerEvents {
+    display: grid;
+}
+
+.Event {
+    width: 100%;
+    height: 100%;
+    position: relative;
+    align-content: center;
+    border-radius: 20px;
+    background: #FAFAFA 100%;
+}
+.Event:hover {
+    background: #F3F3F3 100%;
+    box-shadow: 0 2px 6px 0 rgba(197, 186, 186, 0.5);
+    border: lightgray 1px solid; }
+.Event:hover .closeIcon {
+    display: block; }
+.Event:hover .selectIcon {
+    display: block; }
+.Event-header {
+    display: flex;
+    align-items: center;
+    line-height: 60px;
+    height: 60px;
+}
+.Event-title {
+    margin-left: 15px;
+    float: left;
+    font-weight: bold;
+    line-height: 1em; }
+.Event-description{
+    font-size: 25px;
+    text-align: justify;
+}
+.Event-statusLine{
+    height: 40px;
+}
+
+.Event_critical {
+    background: #DB5341 100%;
+    position: relative; }
+.Event-critical {
+    border-radius: 20px;
+    background: #FAFAFA 100%;
+    word-wrap: break-word;
+    width: 100%;
+    padding: 20px;
+    box-sizing: border-box; }
+.Event_critical:hover {
+    background: #DB5351 100%;
+    box-shadow: 0 4px 5px rgba(0, 0, 0, 0.16), 0 2px 5px rgba(0, 0, 0, 0.01);
+    border: lightgray 1px solid; }
+.Event-image {
+    width: 100%;
+}
