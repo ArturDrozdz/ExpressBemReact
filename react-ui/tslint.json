@@ -9,6 +9,7 @@
   },
   "rules":{
     "no-console": false,
-    "curly": false
+    "curly": false,
+    "ordered-imports": false
   }
 }

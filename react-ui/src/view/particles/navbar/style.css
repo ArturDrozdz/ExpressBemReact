@@ -1,0 +1,131 @@
+.NavBar {
+    width: 100%;
+    display: flex;
+    flex-flow: row wrap;
+    align-items: stretch;
+    height: 92px;
+    box-shadow: 0 4px 5px rgba(0, 0, 0, 0.16), 0 2px 5px rgba(0, 0, 0, 0.01);
+}
+
+.NavBar-Logo {
+    animation: Navbar-Logo-spin infinite 20s linear;
+    height: 80px;
+    width: 80px;
+    display: inline-block;
+    vertical-align: middle;
+    background: url(./logo.svg) center center no-repeat;
+}
+.NavBar-Brand {
+    line-height: 92px;
+}
+.NavBar-Brand > img {
+    vertical-align: middle;
+    width: 108px;
+    height: 27px;
+}
+
+.NavBar-Container > nav {
+    float: left;
+}
+.NavBar-Container > nav > li {
+    list-style-type: none;
+    margin-left: 20px;
+    line-height: 92px;
+}
+.NavBar-Container > nav > li > a{
+    flex-shrink: 0;
+    text-transform: uppercase;
+    font-size: 16px;
+    font-weight: bold;
+    color: gray;
+    text-decoration: none;
+}
+
+.NavBar-Container > nav > li:hover,
+.NavBar-Container > nav > li:active,
+.NavBar-Container > nav > li:focus{
+    border-bottom: 5px solid #a70000;
+}
+
+
+
+
+@keyframes NavBar-Logo-spin {
+    from { transform: rotate(0deg); }
+    to { transform: rotate(360deg); }
+}
+
+
+@media only screen and (max-device-width: 1049px) {
+    .NavBar-Brand {
+        margin-left: 20px;
+    }
+
+    .NavBar-Toggle{
+        height: 40px;
+        width: 40px;
+        display: inline-block;
+        vertical-align: middle;
+        background: url(./mobile_toggle.svg) center center no-repeat;
+    }
+
+    .NavBar-Container {
+        margin-left: auto;
+        line-height: 92px;
+        margin-right: 20px;
+    }
+
+    .NavBar-List {
+        position: absolute;
+        right: 20px;
+        top: 60px;
+        display: none;
+        z-index: 1;
+    }
+
+    .NavBar > li {
+        height: 30px;
+        line-height: 30px;
+        text-align: right;
+    }
+
+    .NavBar-Right {
+        margin-left: 0;
+    }
+
+    .NavBar-Right > li {
+        float: left;
+        margin-right: 20px;
+    }
+
+    .NavBar-Right > a {
+        font-size: 14px;
+    }
+}
+
+@media only screen and (min-device-width: 1050px) {
+    .NavBar-Brand {
+        margin-left: 40px;
+    }
+
+    .NavBar-Brand > img{
+        height: 27px;
+    }
+
+    .NavBar-List{
+        display: flex;
+    }
+
+    .NavBar-Right{
+        float: right !important;
+        display: flex;
+    }
+
+    .NavBar-Container{
+        width:calc(100% - 200px);
+    }
+
+    .NavBar-Container > nav{
+        margin-left: 52px;
+    }
+}

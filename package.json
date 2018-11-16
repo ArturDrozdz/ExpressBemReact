@@ -7,6 +7,7 @@
   },
   "scripts": {
     "start": "cd ./server && npm start",
+    "react": "cd ./react-ui && npm start",
     "build": "cd react-ui && npm run build",
     "postinstall": "cd react-ui && npm install",
     "heroku-postbuild": "cd server/ && npm install && cd ../ && cd react-ui/ && npm install && npm install --only=dev --no-shrinkwrap && npm run build"
@@ -29,6 +30,10 @@
   ],
   "license": "MIT",
   "dependencies": {
+    "react-loadable": "^5.5.0",
     "ts-node": "^7.0.1"
+  },
+  "devDependencies": {
+    "@types/react-loadable": "^5.4.1"
   }
 }
