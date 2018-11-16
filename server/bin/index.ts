@@ -1,5 +1,5 @@
 import express = require('express');
-
+import * as compression from 'compression';
 const path = require('path');
 const cluster = require('cluster');
 const numCPUs = require('os').cpus().length;
@@ -24,7 +24,7 @@ if (cluster.isMaster) {
 
     // Priority serve any static files.
     app.use(express.static(path.resolve(__dirname, '../react-ui/build')));
-
+    app.use(compression());
     // Answer API requests.
     app.get('/api', (req: express.Request, res: express.Response) => {
         res.set('Content-Type', 'application/json');
