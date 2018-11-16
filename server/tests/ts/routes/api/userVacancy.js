@@ -18,10 +18,10 @@ function get(req, res, __) {
                     res.send(JSON.stringify({ arr: arr, countPages: countPages }));
                 });
             else
-                res.send(JSON.stringify("Fuck You"));
+                res.send(JSON.stringify("Butterfly You"));
         });
     }
     else
-        res.send(JSON.stringify("Fuck You"));
+        res.send(JSON.stringify("Butterfly You"));
 }
 module.exports = { get: get };
